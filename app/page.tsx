@@ -7,9 +7,9 @@ export default function Home() {
     <>
       <div className=" font-sans flex flex-col items-center justify-center min-h-screen py-2">
         <div>
-          <span className="text-9xl">00</span>{" "}
-          {/* <span className="text-9xl">00:</span>{" "}
-          <span className="text-9xl">00</span> */}
+          <span className="text-9xl">00:</span>{" "}
+          <span className="text-9xl">00:</span>{" "}
+          <span className="text-9xl">00</span>
         </div>
         <div className="mt-5 flex gap-4">
           <button className="button uppercase border px-9 flex justify-center bg-blue-600 p-4 w-15 hover:bg-white hover:text-blue-500 hover:outline hover:outline-blue-500 transition ease-in-out duration-300 hover:cursor-pointer hover:transform hover:scale-115">
