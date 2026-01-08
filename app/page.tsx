@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className=" font-sans flex flex-col items-center justify-center min-h-screen py-2">
         <div>
-          <span className="text-9xl">00</span>{" "}
+          <span className="text-9xl">00:</span>{" "}
           <span className="text-9xl">00:</span>{" "}
           <span className="text-9xl">00</span>
         </div>
