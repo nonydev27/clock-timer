@@ -33,7 +33,10 @@ export default function Home() {
             stop
           </button>
 
-          <button onClick={() setBackgroundColor('green')} className="button uppercase border px-9 flex justify-center bg-green-600 p-4 w-15 hover:bg-white hover:text-green-500 hover:outline hover:outline-green-500 transition ease-in-out duration-300 hover:cursor-pointer hover:transform hover:scale-115">
+          <button
+            onClick={() => setBackgroundColor("green")}
+            className="button uppercase border px-9 flex justify-center bg-green-600 p-4 w-15 hover:bg-white hover:text-green-500 hover:outline hover:outline-green-500 transition ease-in-out duration-300 hover:cursor-pointer hover:transform hover:scale-115"
+          >
             reset
           </button>
         </div>
